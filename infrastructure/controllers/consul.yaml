@@ -38,8 +38,8 @@ spec:
       datacenter: dc1
     dns:
       enabled: true
-      type: ClusterIP
-      clusterIP: null # 192.168.1.91
+      # type: ClusterIP
+      # clusterIP: # null 192.168.1.91
     ingress:
       enabled: false
       # hosts:
